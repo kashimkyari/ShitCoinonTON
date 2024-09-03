@@ -1,0 +1,14 @@
+{
+    "ABI_version": 2,
+    "functions": [
+        {
+            "name": "taskCompleted",
+            "inputs": [
+                {"name":"userAddress","type":"int"},
+                {"name":"taskId","type":"int"}
+            ],
+            "outputs": []
+        }
+    ],
+    "events": []
+}

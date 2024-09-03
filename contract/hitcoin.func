@@ -1,0 +1,8 @@
+int constant reward = 1 ton; // Example reward
+
+// Pseudo-code for mining contract
+int taskCompleted(int userAddress, int taskId) {
+    if (taskIsCompleted(userAddress, taskId)) {
+        transfer(userAddress, reward);
+    }
+}
